@@ -23,3 +23,7 @@ Workspace for **physical experiments, bench instrumentation and reproducible tes
 - `PLANNED`: not owned; target specification only.
 
 Last inventory update: 2026-11-03.
+
+## Lab sites
+
+- **[Prototyping Lab Savignano](labs/prototyping-lab-savignano/README.md)** — operator-reported bench inventory, product identification and proposed instrumentation.
