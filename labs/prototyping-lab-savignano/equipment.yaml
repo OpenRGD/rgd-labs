@@ -1,0 +1,89 @@
+schema_version: "0.1"
+site:
+  id: LAB-SAV
+  name: Prototyping Lab Savignano
+  type: home_prototyping_lab
+  address: null # omit residential address from public source control
+  last_inventory_update: "2026-11-03"
+  inventory_is_physically_verified: false
+
+assets:
+  - asset_id: LAB-SAV-PSU-001
+    category: dc_bench_power_supply
+    manufacturer: Jesverty
+    model: SPS-3010M
+    ownership_status: operator_reported_owned
+    evidence_status: OPERATOR_REPORTED
+    id_source: retailer_order_screenshot_and_ASIN_catalog_match
+    identifiers:
+      asin: B0CZ92WTQ3
+    advertised:
+      dc_voltage_min_v: 0
+      dc_voltage_max_v_nominal: 30
+      dc_voltage_max_v_unresolved_alternate: 32
+      dc_current_max_a: 10
+      nominal_max_power_w: 300
+      nominal_power_w_at_24_v: 240
+      usb_charge_power_w: 20
+      modes: [CV, CC]
+      protections: [OCP, OVP]
+      ports: [USB-A, USB-C]
+      output_enable_switch: true
+    verified:
+      physical_nameplate: false
+      calibrated: false
+      output_accuracy: null
+      ripple_mvp_p: null
+      max_continuous_power_w: null
+      reverse_current_tolerance: null
+      dc_negative_earth_bond: null
+    references:
+      product: https://www.amazon.it/dp/B0CZ92WTQ3
+      manufacturer_series: https://www.jesverty.com/products/view?id=21839&lang=en
+      asin_model_match: https://device.report/jesverty/sps-3010m
+    cautions:
+      - "Published product descriptions disagree on 30 V vs 32 V maximum; check nameplate/manual."
+      - "Do not assume reverse-current absorption during regenerative motor braking."
+      - "Use properly rated leads and appropriately grounded/differential probes."
+  - asset_id: LAB-SAV-CHG-001
+    category: robot_battery_charger
+    manufacturer: null
+    model: null
+    ownership_status: operator_reported_owned
+    evidence_status: OPERATOR_REPORTED
+    advertised: null
+    verified:
+      physical_nameplate: false
+      battery_chemistry: null
+      cell_count: null
+      charge_current_max_a: null
+      balancing: null
+    next_action: "Identify model, photo of rating label and charge limits."
+  - asset_id: LAB-SAV-DMM-001
+    category: digital_multimeter
+    manufacturer: null
+    model: null
+    ownership_status: operator_reported_owned
+    evidence_status: OPERATOR_REPORTED
+    advertised: null
+    verified:
+      physical_nameplate: false
+      accuracy: null
+      safety_category: null
+      fuses: null
+      leads_rating: null
+    next_action: "Identify model and review input safety / fuse ratings."
+
+planned:
+  - id: LAB-SAV-OSC-001
+    category: oscilloscope
+    status: PLANNED
+    targets:
+      channels: 4
+      bandwidth_mhz_preferred: 100
+      sampling_gsa_s_preferred: 1
+      protocol_decode_desired: [CAN, UART, I2C, SPI]
+  - id: LAB-SAV-PROBE-001
+    category: differential_voltage_and_current_probing
+    status: PLANNED
+    note: "Choose safe probes once actual bus voltage, grounding and desired switching measurements are defined."
