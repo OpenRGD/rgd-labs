@@ -11,6 +11,7 @@ This folder is the **site-specific inventory and bench notes** for Prototyping L
 
 - [Equipment inventory](equipment.md): human-readable asset list, specifications and caveats.
 - [Structured inventory](equipment.yaml): machine-readable asset register for future scripts and reports.
+- [Black Friday 2026 purchase watchlist](procurement/black-friday-2026.md): candidates and proposed price targets, not orders.
 - Shared procurement/test-method planning: [global instrumentation index](../../laboratory/equipment.md).
 
 ## Scope and publication policy
