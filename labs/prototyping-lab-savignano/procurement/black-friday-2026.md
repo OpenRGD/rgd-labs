@@ -20,6 +20,7 @@
 | Priority | Equipment | Target model / identifying query | Threshold (EUR, all-in) | State | Notes |
 | --- | --- | --- | ---: | --- | --- |
 | P1 | Oscilloscope | **OWON VDS1022I** OR **Hantek DSO2C10** | 115 for OWON / 210 for Hantek | OPERATOR_REPORTED_CART_UNSPECIFIED | User said scope added to Amazon cart, **exact model not confirmed**. Prefer Hantek if budget allows; investigate computer integration/OS compatibility and probe safety. Do **not** assume a specific item is in cart. |
+| P1 | Bench oscilloscope — Rigol alternative | **RIGOL DS1202Z-E**, Amazon ASIN **B07XSH2NR2** | **250** | WATCH / OFFER_UNVERIFIED | 200 MHz, 2 channels, USB/LAN and SCPI; 1 GSa/s and 24 Mpts single-channel, 500 MSa/s and 12 Mpts dual-channel. UART/I²C/SPI decoding; **no built-in CAN decoding**. Price seen by user not available to assistant; confirm final Amazon price, seller and history before declaring a deal. Reference other retailers approx €292 incl. IVA, may vary. |
 | P1 | Temperature-controlled soldering station | **YIHUA 926LED-III** | **43** | WATCH | Suitable electronics bench option if no quality soldering station already exists. Verify tip ecosystem, EU voltage, temperature controls. |
 | P1 | Digital multimeter backup / upgrade | **UNI-T UT61B+** | **50** | WATCH | Confirm lead safety, fuse specifications, actual measurement CAT rating and intended use. Budget DMM remains available. |
 | P1 | Open-barrel crimp tool | **IWISS iCrimp SN-28B** | **21** | WATCH | Check compatibility with the *actual* contact family and wire gauge; not a universal JST crimper. |
@@ -45,6 +46,7 @@
 - [INSIZE 1108-150](https://www.amazon.it/s?k=INSIZE+1108-150)
 - [OWON VDS1022I](https://www.amazon.it/s?k=OWON+VDS1022I)
 - [Hantek DSO2C10](https://www.amazon.it/s?k=Hantek+DSO2C10)
+- [Rigol DS1202Z-E (exact Amazon ASIN)](https://www.amazon.it/dp/B07XSH2NR2)
 
 ## Consumables and non-optional safety planning (candidate, verify already owned)
 
