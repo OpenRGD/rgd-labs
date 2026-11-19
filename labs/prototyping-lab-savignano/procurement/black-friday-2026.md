@@ -22,6 +22,7 @@
 | P1 | Oscilloscope | **OWON VDS1022I** OR **Hantek DSO2C10** | 115 for OWON / 210 for Hantek | OPERATOR_REPORTED_CART_UNSPECIFIED | User said scope added to Amazon cart, **exact model not confirmed**. Prefer Hantek if budget allows; investigate computer integration/OS compatibility and probe safety. Do **not** assume a specific item is in cart. |
 | P1 | Bench oscilloscope — Rigol alternative | **RIGOL DS1202Z-E**, Amazon ASIN **B07XSH2NR2** | **250** | WATCH / OFFER_UNVERIFIED | 200 MHz, 2 channels, USB/LAN and SCPI; 1 GSa/s and 24 Mpts single-channel, 500 MSa/s and 12 Mpts dual-channel. UART/I²C/SPI decoding; **no built-in CAN decoding**. Price seen by user not available to assistant; confirm final Amazon price, seller and history before declaring a deal. Reference other retailers approx €292 incl. IVA, may vary. |
 | P1 | Temperature-controlled soldering station | **YIHUA 926LED-III** | **43** | WATCH | Suitable electronics bench option if no quality soldering station already exists. Verify tip ecosystem, EU voltage, temperature controls. |
+| P1 | **Programmable bench DMM** | **OWON XDM1041**, candidate Amazon ASIN **B0H6M4WRM2** | **105** | WATCH / PRICE_UNVERIFIED | 55,000 counts; up to 0.05% DC voltage accuracy, USB via CH340 serial, documented SCPI, Windows DMMEasyControl and Python/Linux community integration. Onboard log max 1,000 points; PC polling duration/rate require on-device validation. The user supplied the listing; checkout price/seller are not verified. Before purchase check exact model, voltage/current safety ratings, probe quality. If purchased, may supersede the planned UNI-T handheld upgrade but does not replace a safe portable meter. |
 | P1 | Digital multimeter backup / upgrade | **UNI-T UT61B+** | **50** | WATCH | Confirm lead safety, fuse specifications, actual measurement CAT rating and intended use. Budget DMM remains available. |
 | P1 | Open-barrel crimp tool | **IWISS iCrimp SN-28B** | **21** | WATCH | Check compatibility with the *actual* contact family and wire gauge; not a universal JST crimper. |
 | P1 | ESD mat + proper grounding accessories | **StarTech ESD work mat** OR equivalent purpose-designed grounded mat | **35** | WATCH | Confirm continuity/resistance, grounding point and included accessories. Avoid falsely treating a heat-resistant silicone mat as ESD protective. |
@@ -37,6 +38,7 @@
 
 - [YIHUA 926LED-III](https://www.amazon.it/s?k=YIHUA+926LED+III)
 - [UNI-T UT61B+](https://www.amazon.it/s?k=UNI-T+UT61B%2B)
+- [OWON XDM1041 (Amazon ASIN B0H6M4WRM2)](https://www.amazon.it/dp/B0H6M4WRM2)
 - [IWISS SN-28B](https://www.amazon.it/s?k=IWISS+SN-28B)
 - [StarTech ESD mat](https://www.amazon.it/s?k=StarTech+tappetino+ESD)
 - [SEENGREAT logic analyzer](https://www.amazon.it/s?k=SEENGREAT+24MHz+8+channel+logic+analyzer)
