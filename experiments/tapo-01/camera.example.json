@@ -1,0 +1,5 @@
+{
+  "host": "192.0.2.10",
+  "username": "REPLACE_WITH_TAPO_CAMERA_ACCOUNT",
+  "password": "REPLACE_LOCALLY_NEVER_COMMIT"
+}
