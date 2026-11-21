@@ -6,6 +6,7 @@ Workspace for **physical experiments, bench instrumentation and reproducible tes
 
 - [Laboratory equipment inventory](laboratory/equipment.md): available instruments, reported specifications, unknowns and procurement priorities.
 - Future test-bench procedures, controlled measurements, and experiment reports can be added as separate, dated records.
+- [TAPO-01 read-only Raspberry Pi 4 onboarding](experiments/tapo-01/README.md): active-vision sensor bridge preflight; no PTZ actuation or Chronon integration claimed.
 
 ## Boundaries
 
