@@ -72,6 +72,12 @@ Only Debian packages are installed: git, curl, ffmpeg, python3-av,
 python3-venv and certificates. No Docker, continuous video, recording,
 systemd service or motor control is enabled.
 
+Run local configuration tests (no camera required):
+
+~~~bash
+/usr/bin/python3 -m unittest discover -s tests -v
+~~~
+
 ## 4. Configure the camera (only after operator approval)
 
 Set up the Tapo camera in the TP-Link app. Under advanced camera settings,
